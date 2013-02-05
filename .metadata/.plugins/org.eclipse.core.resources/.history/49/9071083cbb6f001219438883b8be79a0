@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zombies"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps"/>
+        <activity
+            android:name="com.example.zombies.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+    android:name="com.google.android.maps.v2.API_KEY"
+    android:value="AIzaSyA-P8HwGhhkYvBVTcAZtv8rUCM-IagFRoE"/>
+    </application>
+    <permission
+      android:name="com.example.zombies.permission.MAPS_RECEIVE"
+      android:protectionLevel="signature"/>
+    <uses-permission android:name="com.example.mapdemo.permission.MAPS_RECEIVE"/>
+
+</manifest>

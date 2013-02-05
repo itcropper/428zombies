@@ -1,0 +1,7 @@
+INDEX VERSION 1.126+C:\Users\cropperit\Dropbox\School\Winter 2013\428\.metadata\.plugins\org.eclipse.jdt.core
+2954676405.index
+1781946801.index
+2289317783.index
+3777795469.index
+2393436787.index
+818292068.index

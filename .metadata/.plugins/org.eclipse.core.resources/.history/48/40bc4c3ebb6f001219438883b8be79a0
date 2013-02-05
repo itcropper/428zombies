@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+    <Button
+            android:id="@+id/email_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Hello" />
+    <Button
+            android:id="@+id/snapshot_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/email_button"
+            android:text="World" />
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/snapshot_button"
+            android:layout_centerHorizontal="true">
+        <FrameLayout
+                android:id="@+id/main_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>
+    
+ <!--   
+    <com.google.android.maps.MapView
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent"
+	 android:enabled="true"
+	 android:clickable="true"
+	 android:apiKey="AIzaSyA-P8HwGhhkYvBVTcAZtv8rUCM-IagFRoE"
+	 />
+
+-->
